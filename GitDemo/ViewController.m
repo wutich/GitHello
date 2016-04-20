@@ -31,4 +31,9 @@
     NSLog(@"Hello World");
 }
 
+- (void)sayBye
+{
+    NSLog(@"Say Bye");
+}
+
 @end
