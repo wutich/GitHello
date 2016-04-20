@@ -20,6 +20,8 @@
     NSLog(@"Hello world Git");
     
     [self sayHelloWorld];
+    
+    [self sayBye];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,6 +33,11 @@
 - (void)sayHelloWorld
 {
     NSLog(@"Hello World");
+}
+
+- (void)sayBye
+{
+    NSLog(@"Say Bye");
 }
 
 @end
